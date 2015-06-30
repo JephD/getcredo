@@ -15,39 +15,40 @@
   </head>
   <body>
     <form class="form-horizontal">
-<fieldset>
+  <fieldset>
 
-<!-- Form Name -->
-<legend>Online Buy Airtime</legend>
+  <!-- Form Name -->
+  <legend>Buy Airtime </legend>
 
-<!-- Text input-->
-<div class="control-group">
-  <label class="control-label" for="phonenumber">Phone Number</label>
-  <div class="controls">
-    <input id="phonenumber" name="phonenumber" type="text" placeholder="0712345678" class="input-xlarge" required="">
+  <!-- Text input-->
+  <div class="form-group">
+    <label class="col-md-4 control-label" for="phone">Phone Number</label>
+    <div class="col-md-6">
+    <input id="phone" name="phone" type="text" placeholder="0714283717" class="form-control input-md" required="">
 
+    </div>
   </div>
-</div>
 
-<!-- Text input-->
-<div class="control-group">
-  <label class="control-label" for="amount">Amount</label>
-  <div class="controls">
-    <input id="amount" name="amount" type="text" placeholder="100" class="input-xlarge" required="">
+  <!-- Text input-->
+  <div class="form-group">
+    <label class="col-md-4 control-label" for="amount">Amount</label>
+    <div class="col-md-6">
+    <input id="amount" name="amount" type="text" placeholder="100" class="form-control input-md" required="">
 
+    </div>
   </div>
-</div>
 
-<!-- Button -->
-<div class="control-group">
-  <label class="control-label" for="submit"></label>
-  <div class="controls">
-    <button id="submit" name="submit" class="btn btn-success">Buy</button>
+  <!-- Button -->
+  <div class="form-group">
+    <label class="col-md-4 control-label" for="submit"></label>
+    <div class="col-md-4">
+      <button id="submit" name="submit" class="btn btn-success">Buy</button>
+    </div>
   </div>
-</div>
 
-</fieldset>
-</form>
+  </fieldset>
+  </form>
+
 
   </body>
 </html>
