@@ -1,1 +1,1 @@
-# getcredo
+Kuhustle Training on mobile development
