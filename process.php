@@ -17,7 +17,7 @@ $phone = '+254'.substr($phone,-9);
 //appending KES to the amount
 $amount='KES '.$amount;
 
-/*check whether the user exists, if the user exits get the user_id, if not create the user
+/*check whether the user exists, if the user exits get the <u></u>ser_id, if not create the user
 and get the user id */
 $user_id = createUser($phone);
 

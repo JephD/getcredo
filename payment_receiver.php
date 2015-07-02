@@ -1,6 +1,7 @@
 <?php
 
-//wait for the user to make payments
+
+$phone = $_REQUEST['']
 
 //top up the users account
 
@@ -21,4 +22,4 @@
 
 
 
- ?>
+?>
