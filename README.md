@@ -1,1 +1,1 @@
-Kuhustle Training on mobile development
+Simple App to buy airtime online with payment intergration
